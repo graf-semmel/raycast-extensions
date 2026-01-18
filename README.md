@@ -47,21 +47,18 @@ npm run fix-lint
 
 ### Updating Icons
 
-To sync with the latest Remix Icon library from GitHub:
+To sync with the latest Remix Icon release from GitHub:
 
 ```bash
-# Update icons with SHA-based change detection
 ./scripts/update-icons.sh
-
-# Preview changes without downloading
-./scripts/update-icons.sh --dry-run
 ```
 
-The update script features:
+The update script:
 
-- **SHA-based change detection**: Only downloads new or modified icons
-- **Parallel downloads**: Processes up to 10 icons concurrently
-- **Dry-run mode**: Preview changes without modifying files
+- **Version checking**: Automatically detects and downloads new releases
+- **Official releases**: Downloads the `RemixIcon_Svg_*.zip` asset from GitHub releases
+- **Smart updates**: Only updates when a new version is available (tracked in `scripts/.remix-version`)
+- **Auto-rebuild**: Regenerates `catalogue.json` from downloaded icons
 
 ### Project Structure
 
@@ -78,7 +75,8 @@ assets/
 └── icons/                 # SVG files organized by category
 
 scripts/
-└── update-icons.sh        # Icon sync script with GitHub API
+├── update-icons.sh        # Downloads latest release and rebuilds catalogue
+└── .remix-version         # Tracks currently installed version
 ```
 
 ## Future Enhancements

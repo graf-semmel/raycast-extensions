@@ -10,3 +10,6 @@ raycast-env.d.ts
 
 index.html
 *.sha
+
+# Local cache for downloaded icons
+.local/

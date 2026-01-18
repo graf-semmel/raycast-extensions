@@ -1,5 +1,5 @@
 import { Grid, Color } from "@raycast/api";
-import { Category } from "./types";
+import { IconCategory } from "./types";
 import IconActionPanel from "./IconActionPanel";
 import { getSvgContent, svgToDataUri } from "./utils";
 
@@ -7,7 +7,7 @@ export default function CategorySection({
   category,
   updateRecentIcons,
 }: Readonly<{
-  category: Category;
+  category: IconCategory;
   updateRecentIcons: (category: string, iconName: string) => void;
 }>) {
   return (

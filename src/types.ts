@@ -3,17 +3,17 @@ export type Icon = {
   readonly category: string;
 };
 
-export type Category = {
+export type IconCategory = {
   readonly name: string;
   readonly icons: readonly Icon[];
 };
 
-export interface IconCatalog {
-  readonly categories: readonly Category[];
+export interface Catalog {
+  readonly categories: readonly IconCategory[];
 }
 
-// Raw format from catalogue.json before conversion
-export interface RawCatalog {
+// JSON format from catalogue.json before conversion
+export interface CatalogJSON {
   readonly categories: ReadonlyArray<{
     readonly name: string;
     readonly icons: readonly string[];

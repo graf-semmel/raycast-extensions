@@ -1,7 +1,7 @@
 import { Cache, Grid, showToast, Toast } from "@raycast/api";
 import { useEffect, useState, useMemo, useCallback } from "react";
 import CategorySection from "./CategorySection";
-import { Category, Icon, IconCatalog, RawCatalog } from "./types";
+import { IconCategory, Icon, Catalog, CatalogJSON } from "./types";
 
 const CACHE_KEY_RECENT_ICONS = "recent-icons-cache";
 const cache = new Cache();
@@ -28,12 +28,12 @@ function loadRecentIcons(): Icon[] {
 
 export default function IconsCommand() {
   const [isLoading, setIsLoading] = useState(true);
-  const [catalogue, setCatalogue] = useState<IconCatalog>({ categories: [] });
+  const [catalogue, setCatalogue] = useState<Catalog>({ categories: [] });
   const [category, setCategory] = useState<string>("All");
   const [recentIcons, setRecentIcons] = useState<Icon[]>(loadRecentIcons());
 
-  const filteredCatalogue = useMemo<IconCatalog>(() => {
-    const recentCategory: Category = {
+  const filteredCatalogue = useMemo<Catalog>(() => {
+    const recentCategory: IconCategory = {
       name: "Recent",
       icons: recentIcons,
     };
@@ -58,10 +58,10 @@ export default function IconsCommand() {
     async function loadCategories() {
       try {
         const categoriesModule = await import("../assets/catalogue.json");
-        const rawCatalog = categoriesModule.default as RawCatalog;
+        const rawCatalog = categoriesModule.default as CatalogJSON;
         
         // Convert string[] to Icon[] by including the category name
-        const catalogue: IconCatalog = {
+        const catalogue: Catalog = {
           categories: rawCatalog.categories.map((cat) => ({
             name: cat.name,
             icons: cat.icons.map((name) => ({ name, category: cat.name })),

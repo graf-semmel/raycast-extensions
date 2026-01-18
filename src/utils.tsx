@@ -10,8 +10,23 @@ export function toUpperCamelCase(string: string) {
   return camelCaseString.charAt(0).toUpperCase() + camelCaseString.slice(1);
 }
 
-export function readAssetFile(filePath: string) {
-  const assetPath = path.join(environment.assetsPath, filePath);
-  const content = fs.readFileSync(assetPath, "utf-8");
-  return content;
+// Cache for compressed icon files
+const svgCache: Record<string, Record<string, string>> = {};
+
+export function getSvgContent(category: string, iconName: string): string {
+  // Load category file if not cached
+  if (!svgCache[category]) {
+    const compressedPath = path.join(
+      environment.assetsPath,
+      `icons-compressed/${category}.json`
+    );
+    svgCache[category] = JSON.parse(fs.readFileSync(compressedPath, "utf-8"));
+  }
+
+  return svgCache[category][iconName] || "";
 }
+
+export function svgToDataUri(svgContent: string): string {
+  return `data:image/svg+xml;base64,${Buffer.from(svgContent).toString("base64")}`;
+}
+

@@ -1,20 +1,21 @@
 import { ActionPanel, Action, Icon, Clipboard, showHUD } from "@raycast/api";
-import { readAssetFile } from "./utils";
-import { RemixIcon } from "./types";
+import { getSvgContent, svgToDataUri } from "./utils";
 
 export default function IconActionPanel({
-  icon,
+  category,
+  iconName,
   updateRecentIcons,
 }: Readonly<{
-  icon: RemixIcon;
-  updateRecentIcons: (icon: RemixIcon) => void;
+  category: string;
+  iconName: string;
+  updateRecentIcons: (category: string, iconName: string) => void;
 }>) {
   const copySVG = () => {
     try {
-      const content = readAssetFile(icon.path);
+      const content = getSvgContent(category, iconName);
       Clipboard.copy(content);
-      showHUD(`📋 Copied "${icon.name}" (SVG) to your clipboard.`);
-      updateRecentIcons(icon);
+      showHUD(`📋 Copied "${iconName}" (SVG) to your clipboard.`);
+      updateRecentIcons(category, iconName);
     } catch (error) {
       console.error(error);
       showHUD("❌ Could not copy the icon.");
@@ -22,19 +23,19 @@ export default function IconActionPanel({
   };
 
   const copyWebfont = () => {
-    const content = `<i class="${icon.name}"></i>`;
+    const content = `<i class="${iconName}"></i>`;
     Clipboard.copy(content);
-    showHUD(`📋 Copied "${icon.name}" (Webfont) to your clipboard.`);
-    updateRecentIcons(icon);
+    showHUD(`📋 Copied "${iconName}" (Webfont) to your clipboard.`);
+    updateRecentIcons(category, iconName);
   };
 
   const copyDataURI = () => {
     try {
-      const content = readAssetFile(icon.path);
-      const dataUri = `data:image/svg+xml;base64,${Buffer.from(content).toString("base64")}`;
+      const content = getSvgContent(category, iconName);
+      const dataUri = svgToDataUri(content);
       Clipboard.copy(dataUri);
-      showHUD(`📋 Copied "${icon.name}" (Data URI) to your clipboard.`);
-      updateRecentIcons(icon);
+      showHUD(`📋 Copied "${iconName}" (Data URI) to your clipboard.`);
+      updateRecentIcons(category, iconName);
     } catch (error) {
       console.error(error);
       showHUD("❌ Could not copy the Data URI.");

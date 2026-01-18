@@ -1,36 +1,35 @@
 import { Cache, Grid, showToast, Toast } from "@raycast/api";
 import { useEffect, useState } from "react";
 import CategorySection from "./CategorySection";
+import { Category, RecentIcon } from "./types";
 
 interface IconCatalog {
   categories: Category[];
 }
 
-type Category = {
-  name: string;
-  icons: RemixIcon[];
-};
-
-interface RemixIcon {
-  name: string;
-  path: string;
-  download_url: string;
-}
-
 const CACHE_KEY_RECENT_ICONS = "recentIcons";
 const cache = new Cache();
 
-function loadRecentIcons() {
+function loadRecentIcons(): RecentIcon[] {
   const recent = cache.get(CACHE_KEY_RECENT_ICONS);
-  return recent ? JSON.parse(recent) : [];
+  if (!recent) return [];
+  
+  try {
+    const parsed = JSON.parse(recent);
+    // Validate that each item has category and name properties
+    return parsed.filter((icon: any) => 
+      icon && typeof icon === 'object' && icon.category && icon.name
+    );
+  } catch {
+    return [];
+  }
 }
 
 export default function IconsCommand() {
   const [isLoading, setLoading] = useState(true);
   const [catalogue, setCatalogue] = useState<IconCatalog>({ categories: [] });
   const [category, setCategory] = useState<string>("All");
-  const [recentIcons, setRecentIcons] =
-    useState<RemixIcon[]>(loadRecentIcons());
+  const [recentIcons, setRecentIcons] = useState<RecentIcon[]>(loadRecentIcons());
 
   let filteredCatalogue: IconCatalog;
 
@@ -79,10 +78,10 @@ export default function IconsCommand() {
     loadCategories();
   }, []);
 
-  function updateRecentIcons(icon: RemixIcon) {
+  function updateRecentIcons(category: string, iconName: string) {
     const updatedRecentIcons = [
-      icon,
-      ...recentIcons.filter((i) => i.name !== icon.name),
+      { category, name: iconName },
+      ...recentIcons.filter((i) => i.name !== iconName),
     ].slice(0, 8);
     setRecentIcons(updatedRecentIcons);
     cache.set(CACHE_KEY_RECENT_ICONS, JSON.stringify(updatedRecentIcons));

@@ -4,11 +4,11 @@ export interface IconCatalog {
 
 export type Category = {
   name: string;
-  icons: RemixIcon[];
+  icons: string[] | RecentIcon[];
 };
 
-export interface RemixIcon {
+export type RecentIcon = {
+  category: string;
   name: string;
-  path: string;
-  download_url: string;
-}
+};
+

@@ -1,13 +1,21 @@
-export interface IconCatalog {
-  categories: Category[];
-}
+export type Icon = {
+  readonly name: string;
+  readonly category: string;
+};
 
 export type Category = {
-  name: string;
-  icons: string[] | RecentIcon[];
+  readonly name: string;
+  readonly icons: readonly Icon[];
 };
 
-export type RecentIcon = {
-  category: string;
-  name: string;
-};
+export interface IconCatalog {
+  readonly categories: readonly Category[];
+}
+
+// Raw format from catalogue.json before conversion
+export interface RawCatalog {
+  readonly categories: ReadonlyArray<{
+    readonly name: string;
+    readonly icons: readonly string[];
+  }>;
+}

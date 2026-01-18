@@ -13,16 +13,8 @@ export default function CategorySection({
   return (
     <Grid.Section title={category.name} columns={8}>
       {category.icons.map((icon) => {
-        // Handle both string (normal) and RecentIcon (Recent category) types
-        const iconName = typeof icon === "string" ? icon : icon.name;
-        const iconCategory =
-          typeof icon === "string" ? category.name : icon.category;
-
-        // Skip if category or name is missing
-        if (!iconCategory || !iconName) {
-          console.warn("Skipping icon with missing category or name:", icon);
-          return null;
-        }
+        const iconName = icon.name;
+        const iconCategory = icon.category;
 
         try {
           const svgContent = getSvgContent(iconCategory, iconName);

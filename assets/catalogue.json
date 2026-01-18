@@ -1264,6 +1264,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/archive-stack-line.svg"
         },
         {
+          "name": "area-chart-fill",
+          "path": "icons/Business/area-chart-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/area-chart-fill.svg"
+        },
+        {
+          "name": "area-chart-line",
+          "path": "icons/Business/area-chart-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/area-chart-line.svg"
+        },
+        {
           "name": "at-fill",
           "path": "icons/Business/at-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/at-fill.svg"
@@ -1694,6 +1704,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/global-line.svg"
         },
         {
+          "name": "global-off-fill",
+          "path": "icons/Business/global-off-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/global-off-fill.svg"
+        },
+        {
+          "name": "global-off-line",
+          "path": "icons/Business/global-off-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/global-off-line.svg"
+        },
+        {
           "name": "honour-fill",
           "path": "icons/Business/honour-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/honour-fill.svg"
@@ -2114,6 +2134,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/reply-line.svg"
         },
         {
+          "name": "send-ins-fill",
+          "path": "icons/Business/send-ins-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/send-ins-fill.svg"
+        },
+        {
+          "name": "send-ins-line",
+          "path": "icons/Business/send-ins-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/send-ins-line.svg"
+        },
+        {
           "name": "send-plane-2-fill",
           "path": "icons/Business/send-plane-2-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/send-plane-2-fill.svg"
@@ -2214,6 +2244,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/stack-line.svg"
         },
         {
+          "name": "stacked-chart-fill",
+          "path": "icons/Business/stacked-chart-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/stacked-chart-fill.svg"
+        },
+        {
+          "name": "stacked-chart-line",
+          "path": "icons/Business/stacked-chart-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/stacked-chart-line.svg"
+        },
+        {
           "name": "trademark-fill",
           "path": "icons/Business/trademark-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Business/trademark-fill.svg"
@@ -2307,6 +2347,36 @@
           "name": "chat-4-line",
           "path": "icons/Communication/chat-4-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-4-line.svg"
+        },
+        {
+          "name": "chat-ai-2-fill",
+          "path": "icons/Communication/chat-ai-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-2-fill.svg"
+        },
+        {
+          "name": "chat-ai-2-line",
+          "path": "icons/Communication/chat-ai-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-2-line.svg"
+        },
+        {
+          "name": "chat-ai-3-fill",
+          "path": "icons/Communication/chat-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-3-fill.svg"
+        },
+        {
+          "name": "chat-ai-3-line",
+          "path": "icons/Communication/chat-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-3-line.svg"
+        },
+        {
+          "name": "chat-ai-4-fill",
+          "path": "icons/Communication/chat-ai-4-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-4-fill.svg"
+        },
+        {
+          "name": "chat-ai-4-line",
+          "path": "icons/Communication/chat-ai-4-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-ai-4-line.svg"
         },
         {
           "name": "chat-ai-fill",
@@ -2479,6 +2549,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-smile-3-line.svg"
         },
         {
+          "name": "chat-smile-ai-3-fill",
+          "path": "icons/Communication/chat-smile-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-smile-ai-3-fill.svg"
+        },
+        {
+          "name": "chat-smile-ai-3-line",
+          "path": "icons/Communication/chat-smile-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-smile-ai-3-line.svg"
+        },
+        {
           "name": "chat-smile-ai-fill",
           "path": "icons/Communication/chat-smile-ai-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/chat-smile-ai-fill.svg"
@@ -2599,6 +2679,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/message-3-line.svg"
         },
         {
+          "name": "message-ai-3-fill",
+          "path": "icons/Communication/message-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/message-ai-3-fill.svg"
+        },
+        {
+          "name": "message-ai-3-line",
+          "path": "icons/Communication/message-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/message-ai-3-line.svg"
+        },
+        {
           "name": "message-fill",
           "path": "icons/Communication/message-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/message-fill.svg"
@@ -2649,6 +2739,26 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/speak-line.svg"
         },
         {
+          "name": "speech-to-text-fill",
+          "path": "icons/Communication/speech-to-text-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/speech-to-text-fill.svg"
+        },
+        {
+          "name": "speech-to-text-line",
+          "path": "icons/Communication/speech-to-text-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/speech-to-text-line.svg"
+        },
+        {
+          "name": "text-to-speech-fill",
+          "path": "icons/Communication/text-to-speech-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/text-to-speech-fill.svg"
+        },
+        {
+          "name": "text-to-speech-line",
+          "path": "icons/Communication/text-to-speech-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/text-to-speech-line.svg"
+        },
+        {
           "name": "video-chat-fill",
           "path": "icons/Communication/video-chat-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Communication/video-chat-fill.svg"
@@ -2663,6 +2773,16 @@
     {
       "name": "Design",
       "icons": [
+        {
+          "name": "ai-generate-2-fill",
+          "path": "icons/Design/ai-generate-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/ai-generate-2-fill.svg"
+        },
+        {
+          "name": "ai-generate-2-line",
+          "path": "icons/Design/ai-generate-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/ai-generate-2-line.svg"
+        },
         {
           "name": "align-item-bottom-fill",
           "path": "icons/Design/align-item-bottom-fill.svg",
@@ -2812,6 +2932,16 @@
           "name": "brush-4-line",
           "path": "icons/Design/brush-4-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/brush-4-line.svg"
+        },
+        {
+          "name": "brush-ai-3-fill",
+          "path": "icons/Design/brush-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/brush-ai-3-fill.svg"
+        },
+        {
+          "name": "brush-ai-3-line",
+          "path": "icons/Design/brush-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/brush-ai-3-line.svg"
         },
         {
           "name": "brush-ai-fill",
@@ -3454,6 +3584,26 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/paint-line.svg"
         },
         {
+          "name": "painting-ai-fill",
+          "path": "icons/Design/painting-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/painting-ai-fill.svg"
+        },
+        {
+          "name": "painting-ai-line",
+          "path": "icons/Design/painting-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/painting-ai-line.svg"
+        },
+        {
+          "name": "painting-fill",
+          "path": "icons/Design/painting-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/painting-fill.svg"
+        },
+        {
+          "name": "painting-line",
+          "path": "icons/Design/painting-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/painting-line.svg"
+        },
+        {
           "name": "palette-fill",
           "path": "icons/Design/palette-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/palette-fill.svg"
@@ -3482,6 +3632,26 @@
           "name": "pen-nib-line",
           "path": "icons/Design/pen-nib-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/pen-nib-line.svg"
+        },
+        {
+          "name": "pencil-ai-2-fill",
+          "path": "icons/Design/pencil-ai-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/pencil-ai-2-fill.svg"
+        },
+        {
+          "name": "pencil-ai-2-line",
+          "path": "icons/Design/pencil-ai-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/pencil-ai-2-line.svg"
+        },
+        {
+          "name": "pencil-ai-fill",
+          "path": "icons/Design/pencil-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/pencil-ai-fill.svg"
+        },
+        {
+          "name": "pencil-ai-line",
+          "path": "icons/Design/pencil-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/pencil-ai-line.svg"
         },
         {
           "name": "pencil-fill",
@@ -3552,6 +3722,16 @@
           "name": "rectangle-line",
           "path": "icons/Design/rectangle-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/rectangle-line.svg"
+        },
+        {
+          "name": "remix-fill",
+          "path": "icons/Design/remix-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/remix-fill.svg"
+        },
+        {
+          "name": "remix-line",
+          "path": "icons/Design/remix-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/remix-line.svg"
         },
         {
           "name": "ruler-2-fill",
@@ -3742,6 +3922,16 @@
           "name": "triangle-line",
           "path": "icons/Design/triangle-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/triangle-line.svg"
+        },
+        {
+          "name": "wrench-fill",
+          "path": "icons/Design/wrench-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/wrench-fill.svg"
+        },
+        {
+          "name": "wrench-line",
+          "path": "icons/Design/wrench-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Design/wrench-line.svg"
         }
       ]
     },
@@ -3977,6 +4167,26 @@
           "name": "html5-line",
           "path": "icons/Development/html5-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Development/html5-line.svg"
+        },
+        {
+          "name": "issues-fill",
+          "path": "icons/Development/issues-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Development/issues-fill.svg"
+        },
+        {
+          "name": "issues-line",
+          "path": "icons/Development/issues-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Development/issues-line.svg"
+        },
+        {
+          "name": "issues-reopen-fill",
+          "path": "icons/Development/issues-reopen-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Development/issues-reopen-fill.svg"
+        },
+        {
+          "name": "issues-reopen-line",
+          "path": "icons/Development/issues-reopen-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Development/issues-reopen-line.svg"
         },
         {
           "name": "javascript-fill",
@@ -4484,6 +4694,36 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/mouse-line.svg"
         },
         {
+          "name": "network-error-fill",
+          "path": "icons/Device/network-error-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-error-fill.svg"
+        },
+        {
+          "name": "network-error-line",
+          "path": "icons/Device/network-error-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-error-line.svg"
+        },
+        {
+          "name": "network-fill",
+          "path": "icons/Device/network-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-fill.svg"
+        },
+        {
+          "name": "network-line",
+          "path": "icons/Device/network-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-line.svg"
+        },
+        {
+          "name": "network-off-fill",
+          "path": "icons/Device/network-off-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-off-fill.svg"
+        },
+        {
+          "name": "network-off-line",
+          "path": "icons/Device/network-off-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/network-off-line.svg"
+        },
+        {
           "name": "phone-fill",
           "path": "icons/Device/phone-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/phone-fill.svg"
@@ -4744,6 +4984,46 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/shut-down-line.svg"
         },
         {
+          "name": "signal-cellular-1-fill",
+          "path": "icons/Device/signal-cellular-1-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-1-fill.svg"
+        },
+        {
+          "name": "signal-cellular-1-line",
+          "path": "icons/Device/signal-cellular-1-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-1-line.svg"
+        },
+        {
+          "name": "signal-cellular-2-fill",
+          "path": "icons/Device/signal-cellular-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-2-fill.svg"
+        },
+        {
+          "name": "signal-cellular-2-line",
+          "path": "icons/Device/signal-cellular-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-2-line.svg"
+        },
+        {
+          "name": "signal-cellular-3-fill",
+          "path": "icons/Device/signal-cellular-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-3-fill.svg"
+        },
+        {
+          "name": "signal-cellular-3-line",
+          "path": "icons/Device/signal-cellular-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-3-line.svg"
+        },
+        {
+          "name": "signal-cellular-off-fill",
+          "path": "icons/Device/signal-cellular-off-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-off-fill.svg"
+        },
+        {
+          "name": "signal-cellular-off-line",
+          "path": "icons/Device/signal-cellular-off-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-cellular-off-line.svg"
+        },
+        {
           "name": "signal-wifi-1-fill",
           "path": "icons/Device/signal-wifi-1-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Device/signal-wifi-1-fill.svg"
@@ -4969,6 +5249,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/book-3-line.svg"
         },
         {
+          "name": "book-ai-fill",
+          "path": "icons/Document/book-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/book-ai-fill.svg"
+        },
+        {
+          "name": "book-ai-line",
+          "path": "icons/Document/book-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/book-ai-line.svg"
+        },
+        {
           "name": "book-fill",
           "path": "icons/Document/book-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/book-fill.svg"
@@ -5127,6 +5417,26 @@
           "name": "file-add-line",
           "path": "icons/Document/file-add-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-add-line.svg"
+        },
+        {
+          "name": "file-ai-2-fill",
+          "path": "icons/Document/file-ai-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-ai-2-fill.svg"
+        },
+        {
+          "name": "file-ai-2-line",
+          "path": "icons/Document/file-ai-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-ai-2-line.svg"
+        },
+        {
+          "name": "file-ai-fill",
+          "path": "icons/Document/file-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-ai-fill.svg"
+        },
+        {
+          "name": "file-ai-line",
+          "path": "icons/Document/file-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-ai-line.svg"
         },
         {
           "name": "file-chart-2-fill",
@@ -5457,6 +5767,16 @@
           "name": "file-reduce-line",
           "path": "icons/Document/file-reduce-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-reduce-line.svg"
+        },
+        {
+          "name": "file-scan-fill",
+          "path": "icons/Document/file-scan-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-scan-fill.svg"
+        },
+        {
+          "name": "file-scan-line",
+          "path": "icons/Document/file-scan-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Document/file-scan-line.svg"
         },
         {
           "name": "file-search-fill",
@@ -6114,6 +6434,11 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/ai-generate.svg"
         },
         {
+          "name": "ai",
+          "path": "icons/Editor/ai.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/ai.svg"
+        },
+        {
           "name": "align-bottom",
           "path": "icons/Editor/align-bottom.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/align-bottom.svg"
@@ -6192,6 +6517,11 @@
           "name": "code-view",
           "path": "icons/Editor/code-view.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/code-view.svg"
+        },
+        {
+          "name": "cursor-hand",
+          "path": "icons/Editor/cursor-hand.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/cursor-hand.svg"
         },
         {
           "name": "custom-size",
@@ -6274,9 +6604,9 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/font-sans-serif.svg"
         },
         {
-          "name": "font-sans",
-          "path": "icons/Editor/font-sans.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/font-sans.svg"
+          "name": "font-serif",
+          "path": "icons/Editor/font-serif.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/font-serif.svg"
         },
         {
           "name": "font-size-2",
@@ -7804,6 +8134,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Food/goblet-2-line.svg"
         },
         {
+          "name": "goblet-broken-fill",
+          "path": "icons/Food/goblet-broken-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Food/goblet-broken-fill.svg"
+        },
+        {
+          "name": "goblet-broken-line",
+          "path": "icons/Food/goblet-broken-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Food/goblet-broken-line.svg"
+        },
+        {
           "name": "goblet-fill",
           "path": "icons/Food/goblet-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Food/goblet-fill.svg"
@@ -7856,6 +8196,261 @@
       ]
     },
     {
+      "name": "Game & Sports",
+      "icons": [
+        {
+          "name": "baseball-fill",
+          "path": "icons/Game & Sports/baseball-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/baseball-fill.svg"
+        },
+        {
+          "name": "baseball-line",
+          "path": "icons/Game & Sports/baseball-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/baseball-line.svg"
+        },
+        {
+          "name": "basketball-fill",
+          "path": "icons/Game & Sports/basketball-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/basketball-fill.svg"
+        },
+        {
+          "name": "basketball-line",
+          "path": "icons/Game & Sports/basketball-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/basketball-line.svg"
+        },
+        {
+          "name": "billiards-fill",
+          "path": "icons/Game & Sports/billiards-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/billiards-fill.svg"
+        },
+        {
+          "name": "billiards-line",
+          "path": "icons/Game & Sports/billiards-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/billiards-line.svg"
+        },
+        {
+          "name": "boxing-fill",
+          "path": "icons/Game & Sports/boxing-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/boxing-fill.svg"
+        },
+        {
+          "name": "boxing-line",
+          "path": "icons/Game & Sports/boxing-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/boxing-line.svg"
+        },
+        {
+          "name": "chess-fill",
+          "path": "icons/Game & Sports/chess-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/chess-fill.svg"
+        },
+        {
+          "name": "chess-line",
+          "path": "icons/Game & Sports/chess-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/chess-line.svg"
+        },
+        {
+          "name": "dice-1-fill",
+          "path": "icons/Game & Sports/dice-1-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-1-fill.svg"
+        },
+        {
+          "name": "dice-1-line",
+          "path": "icons/Game & Sports/dice-1-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-1-line.svg"
+        },
+        {
+          "name": "dice-2-fill",
+          "path": "icons/Game & Sports/dice-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-2-fill.svg"
+        },
+        {
+          "name": "dice-2-line",
+          "path": "icons/Game & Sports/dice-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-2-line.svg"
+        },
+        {
+          "name": "dice-3-fill",
+          "path": "icons/Game & Sports/dice-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-3-fill.svg"
+        },
+        {
+          "name": "dice-3-line",
+          "path": "icons/Game & Sports/dice-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-3-line.svg"
+        },
+        {
+          "name": "dice-4-fill",
+          "path": "icons/Game & Sports/dice-4-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-4-fill.svg"
+        },
+        {
+          "name": "dice-4-line",
+          "path": "icons/Game & Sports/dice-4-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-4-line.svg"
+        },
+        {
+          "name": "dice-5-fill",
+          "path": "icons/Game & Sports/dice-5-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-5-fill.svg"
+        },
+        {
+          "name": "dice-5-line",
+          "path": "icons/Game & Sports/dice-5-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-5-line.svg"
+        },
+        {
+          "name": "dice-6-fill",
+          "path": "icons/Game & Sports/dice-6-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-6-fill.svg"
+        },
+        {
+          "name": "dice-6-line",
+          "path": "icons/Game & Sports/dice-6-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-6-line.svg"
+        },
+        {
+          "name": "dice-fill",
+          "path": "icons/Game & Sports/dice-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-fill.svg"
+        },
+        {
+          "name": "dice-line",
+          "path": "icons/Game & Sports/dice-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/dice-line.svg"
+        },
+        {
+          "name": "football-fill",
+          "path": "icons/Game & Sports/football-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/football-fill.svg"
+        },
+        {
+          "name": "football-line",
+          "path": "icons/Game & Sports/football-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/football-line.svg"
+        },
+        {
+          "name": "game-2-fill",
+          "path": "icons/Game & Sports/game-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/game-2-fill.svg"
+        },
+        {
+          "name": "game-2-line",
+          "path": "icons/Game & Sports/game-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/game-2-line.svg"
+        },
+        {
+          "name": "game-fill",
+          "path": "icons/Game & Sports/game-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/game-fill.svg"
+        },
+        {
+          "name": "game-line",
+          "path": "icons/Game & Sports/game-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/game-line.svg"
+        },
+        {
+          "name": "golf-ball-fill",
+          "path": "icons/Game & Sports/golf-ball-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/golf-ball-fill.svg"
+        },
+        {
+          "name": "golf-ball-line",
+          "path": "icons/Game & Sports/golf-ball-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/golf-ball-line.svg"
+        },
+        {
+          "name": "piano-fill",
+          "path": "icons/Game & Sports/piano-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/piano-fill.svg"
+        },
+        {
+          "name": "piano-grand-fill",
+          "path": "icons/Game & Sports/piano-grand-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/piano-grand-fill.svg"
+        },
+        {
+          "name": "piano-grand-line",
+          "path": "icons/Game & Sports/piano-grand-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/piano-grand-line.svg"
+        },
+        {
+          "name": "piano-line",
+          "path": "icons/Game & Sports/piano-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/piano-line.svg"
+        },
+        {
+          "name": "ping-pong-fill",
+          "path": "icons/Game & Sports/ping-pong-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/ping-pong-fill.svg"
+        },
+        {
+          "name": "ping-pong-line",
+          "path": "icons/Game & Sports/ping-pong-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/ping-pong-line.svg"
+        },
+        {
+          "name": "poker-clubs-fill",
+          "path": "icons/Game & Sports/poker-clubs-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-clubs-fill.svg"
+        },
+        {
+          "name": "poker-clubs-line",
+          "path": "icons/Game & Sports/poker-clubs-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-clubs-line.svg"
+        },
+        {
+          "name": "poker-diamonds-fill",
+          "path": "icons/Game & Sports/poker-diamonds-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-diamonds-fill.svg"
+        },
+        {
+          "name": "poker-diamonds-line",
+          "path": "icons/Game & Sports/poker-diamonds-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-diamonds-line.svg"
+        },
+        {
+          "name": "poker-hearts-fill",
+          "path": "icons/Game & Sports/poker-hearts-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-hearts-fill.svg"
+        },
+        {
+          "name": "poker-hearts-line",
+          "path": "icons/Game & Sports/poker-hearts-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-hearts-line.svg"
+        },
+        {
+          "name": "poker-spades-fill",
+          "path": "icons/Game & Sports/poker-spades-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-spades-fill.svg"
+        },
+        {
+          "name": "poker-spades-line",
+          "path": "icons/Game & Sports/poker-spades-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/poker-spades-line.svg"
+        },
+        {
+          "name": "sword-fill",
+          "path": "icons/Game & Sports/sword-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/sword-fill.svg"
+        },
+        {
+          "name": "sword-line",
+          "path": "icons/Game & Sports/sword-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/sword-line.svg"
+        },
+        {
+          "name": "target-fill",
+          "path": "icons/Game & Sports/target-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/target-fill.svg"
+        },
+        {
+          "name": "target-line",
+          "path": "icons/Game & Sports/target-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Game%20%26%20Sports/target-line.svg"
+        }
+      ]
+    },
+    {
       "name": "Health & Medical",
       "icons": [
         {
@@ -7879,6 +8474,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/aed-line.svg"
         },
         {
+          "name": "atom-fill",
+          "path": "icons/Health & Medical/atom-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/atom-fill.svg"
+        },
+        {
+          "name": "atom-line",
+          "path": "icons/Health & Medical/atom-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/atom-line.svg"
+        },
+        {
           "name": "brain-2-fill",
           "path": "icons/Health & Medical/brain-2-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-2-fill.svg"
@@ -7887,6 +8492,26 @@
           "name": "brain-2-line",
           "path": "icons/Health & Medical/brain-2-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-2-line.svg"
+        },
+        {
+          "name": "brain-3-fill",
+          "path": "icons/Health & Medical/brain-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-3-fill.svg"
+        },
+        {
+          "name": "brain-3-line",
+          "path": "icons/Health & Medical/brain-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-3-line.svg"
+        },
+        {
+          "name": "brain-ai-3-fill",
+          "path": "icons/Health & Medical/brain-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-ai-3-fill.svg"
+        },
+        {
+          "name": "brain-ai-3-line",
+          "path": "icons/Health & Medical/brain-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Health%20%26%20Medical/brain-ai-3-line.svg"
         },
         {
           "name": "brain-fill",
@@ -8464,6 +9089,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/coreos-line.svg"
         },
         {
+          "name": "deepseek-fill",
+          "path": "icons/Logos/deepseek-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/deepseek-fill.svg"
+        },
+        {
+          "name": "deepseek-line",
+          "path": "icons/Logos/deepseek-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/deepseek-line.svg"
+        },
+        {
           "name": "dingding-fill",
           "path": "icons/Logos/dingding-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/dingding-fill.svg"
@@ -8654,6 +9289,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/firefox-line.svg"
         },
         {
+          "name": "fiverr-fill",
+          "path": "icons/Logos/fiverr-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/fiverr-fill.svg"
+        },
+        {
+          "name": "fiverr-line",
+          "path": "icons/Logos/fiverr-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/fiverr-line.svg"
+        },
+        {
           "name": "flickr-fill",
           "path": "icons/Logos/flickr-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/flickr-fill.svg"
@@ -8702,6 +9347,16 @@
           "name": "gemini-line",
           "path": "icons/Logos/gemini-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/gemini-line.svg"
+        },
+        {
+          "name": "gitee-fill",
+          "path": "icons/Logos/gitee-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/gitee-fill.svg"
+        },
+        {
+          "name": "gitee-line",
+          "path": "icons/Logos/gitee-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/gitee-line.svg"
         },
         {
           "name": "github-fill",
@@ -9422,6 +10077,16 @@
           "name": "unsplash-line",
           "path": "icons/Logos/unsplash-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/unsplash-line.svg"
+        },
+        {
+          "name": "upwork-fill",
+          "path": "icons/Logos/upwork-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/upwork-fill.svg"
+        },
+        {
+          "name": "upwork-line",
+          "path": "icons/Logos/upwork-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Logos/upwork-line.svg"
         },
         {
           "name": "vercel-fill",
@@ -10544,6 +11209,26 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-3-line.svg"
         },
         {
+          "name": "camera-4-fill",
+          "path": "icons/Media/camera-4-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-4-fill.svg"
+        },
+        {
+          "name": "camera-4-line",
+          "path": "icons/Media/camera-4-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-4-line.svg"
+        },
+        {
+          "name": "camera-ai-2-fill",
+          "path": "icons/Media/camera-ai-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-ai-2-fill.svg"
+        },
+        {
+          "name": "camera-ai-2-line",
+          "path": "icons/Media/camera-ai-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-ai-2-line.svg"
+        },
+        {
           "name": "camera-ai-fill",
           "path": "icons/Media/camera-ai-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/camera-ai-fill.svg"
@@ -10924,6 +11609,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-circle-line.svg"
         },
         {
+          "name": "image-download-fill",
+          "path": "icons/Media/image-download-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-download-fill.svg"
+        },
+        {
+          "name": "image-download-line",
+          "path": "icons/Media/image-download-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-download-line.svg"
+        },
+        {
           "name": "image-edit-fill",
           "path": "icons/Media/image-edit-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-edit-fill.svg"
@@ -10942,6 +11637,16 @@
           "name": "image-line",
           "path": "icons/Media/image-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-line.svg"
+        },
+        {
+          "name": "image-upload-fill",
+          "path": "icons/Media/image-upload-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-upload-fill.svg"
+        },
+        {
+          "name": "image-upload-line",
+          "path": "icons/Media/image-upload-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Media/image-upload-line.svg"
         },
         {
           "name": "landscape-ai-fill",
@@ -11939,6 +12644,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/accessibility-line.svg"
         },
         {
+          "name": "ai-generate-3d-fill",
+          "path": "icons/Others/ai-generate-3d-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/ai-generate-3d-fill.svg"
+        },
+        {
+          "name": "ai-generate-3d-line",
+          "path": "icons/Others/ai-generate-3d-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/ai-generate-3d-line.svg"
+        },
+        {
           "name": "armchair-fill",
           "path": "icons/Others/armchair-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/armchair-fill.svg"
@@ -11947,16 +12662,6 @@
           "name": "armchair-line",
           "path": "icons/Others/armchair-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/armchair-line.svg"
-        },
-        {
-          "name": "basketball-fill",
-          "path": "icons/Others/basketball-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/basketball-fill.svg"
-        },
-        {
-          "name": "basketball-line",
-          "path": "icons/Others/basketball-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/basketball-line.svg"
         },
         {
           "name": "bell-fill",
@@ -11969,14 +12674,14 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/bell-line.svg"
         },
         {
-          "name": "billiards-fill",
-          "path": "icons/Others/billiards-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/billiards-fill.svg"
+          "name": "binoculars-fill",
+          "path": "icons/Others/binoculars-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/binoculars-fill.svg"
         },
         {
-          "name": "billiards-line",
-          "path": "icons/Others/billiards-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/billiards-line.svg"
+          "name": "binoculars-line",
+          "path": "icons/Others/binoculars-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/binoculars-line.svg"
         },
         {
           "name": "book-shelf-fill",
@@ -12019,16 +12724,6 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/box-3-line.svg"
         },
         {
-          "name": "boxing-fill",
-          "path": "icons/Others/boxing-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/boxing-fill.svg"
-        },
-        {
-          "name": "boxing-line",
-          "path": "icons/Others/boxing-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/boxing-line.svg"
-        },
-        {
           "name": "cactus-fill",
           "path": "icons/Others/cactus-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/cactus-fill.svg"
@@ -12059,16 +12754,6 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/character-recognition-line.svg"
         },
         {
-          "name": "chess-fill",
-          "path": "icons/Others/chess-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/chess-fill.svg"
-        },
-        {
-          "name": "chess-line",
-          "path": "icons/Others/chess-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/chess-line.svg"
-        },
-        {
           "name": "cross-fill",
           "path": "icons/Others/cross-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/cross-fill.svg"
@@ -12077,76 +12762,6 @@
           "name": "cross-line",
           "path": "icons/Others/cross-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/cross-line.svg"
-        },
-        {
-          "name": "dice-1-fill",
-          "path": "icons/Others/dice-1-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-1-fill.svg"
-        },
-        {
-          "name": "dice-1-line",
-          "path": "icons/Others/dice-1-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-1-line.svg"
-        },
-        {
-          "name": "dice-2-fill",
-          "path": "icons/Others/dice-2-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-2-fill.svg"
-        },
-        {
-          "name": "dice-2-line",
-          "path": "icons/Others/dice-2-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-2-line.svg"
-        },
-        {
-          "name": "dice-3-fill",
-          "path": "icons/Others/dice-3-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-3-fill.svg"
-        },
-        {
-          "name": "dice-3-line",
-          "path": "icons/Others/dice-3-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-3-line.svg"
-        },
-        {
-          "name": "dice-4-fill",
-          "path": "icons/Others/dice-4-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-4-fill.svg"
-        },
-        {
-          "name": "dice-4-line",
-          "path": "icons/Others/dice-4-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-4-line.svg"
-        },
-        {
-          "name": "dice-5-fill",
-          "path": "icons/Others/dice-5-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-5-fill.svg"
-        },
-        {
-          "name": "dice-5-line",
-          "path": "icons/Others/dice-5-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-5-line.svg"
-        },
-        {
-          "name": "dice-6-fill",
-          "path": "icons/Others/dice-6-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-6-fill.svg"
-        },
-        {
-          "name": "dice-6-line",
-          "path": "icons/Others/dice-6-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-6-line.svg"
-        },
-        {
-          "name": "dice-fill",
-          "path": "icons/Others/dice-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-fill.svg"
-        },
-        {
-          "name": "dice-line",
-          "path": "icons/Others/dice-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/dice-line.svg"
         },
         {
           "name": "door-closed-fill",
@@ -12209,16 +12824,6 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/flower-line.svg"
         },
         {
-          "name": "football-fill",
-          "path": "icons/Others/football-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/football-fill.svg"
-        },
-        {
-          "name": "football-line",
-          "path": "icons/Others/football-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/football-line.svg"
-        },
-        {
           "name": "fridge-fill",
           "path": "icons/Others/fridge-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/fridge-fill.svg"
@@ -12227,16 +12832,6 @@
           "name": "fridge-line",
           "path": "icons/Others/fridge-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/fridge-line.svg"
-        },
-        {
-          "name": "game-fill",
-          "path": "icons/Others/game-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/game-fill.svg"
-        },
-        {
-          "name": "game-line",
-          "path": "icons/Others/game-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/game-line.svg"
         },
         {
           "name": "glasses-2-fill",
@@ -12267,16 +12862,6 @@
           "name": "goggles-line",
           "path": "icons/Others/goggles-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/goggles-line.svg"
-        },
-        {
-          "name": "golf-ball-fill",
-          "path": "icons/Others/golf-ball-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/golf-ball-fill.svg"
-        },
-        {
-          "name": "golf-ball-line",
-          "path": "icons/Others/golf-ball-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/golf-ball-line.svg"
         },
         {
           "name": "graduation-cap-fill",
@@ -12339,6 +12924,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/leaf-line.svg"
         },
         {
+          "name": "lightbulb-ai-fill",
+          "path": "icons/Others/lightbulb-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/lightbulb-ai-fill.svg"
+        },
+        {
+          "name": "lightbulb-ai-line",
+          "path": "icons/Others/lightbulb-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/lightbulb-ai-line.svg"
+        },
+        {
           "name": "lightbulb-fill",
           "path": "icons/Others/lightbulb-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/lightbulb-fill.svg"
@@ -12379,16 +12974,6 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/outlet-line.svg"
         },
         {
-          "name": "ping-pong-fill",
-          "path": "icons/Others/ping-pong-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/ping-pong-fill.svg"
-        },
-        {
-          "name": "ping-pong-line",
-          "path": "icons/Others/ping-pong-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/ping-pong-line.svg"
-        },
-        {
           "name": "plant-fill",
           "path": "icons/Others/plant-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plant-fill.svg"
@@ -12409,6 +12994,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plug-2-line.svg"
         },
         {
+          "name": "plug-3-fill",
+          "path": "icons/Others/plug-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plug-3-fill.svg"
+        },
+        {
+          "name": "plug-3-line",
+          "path": "icons/Others/plug-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plug-3-line.svg"
+        },
+        {
           "name": "plug-fill",
           "path": "icons/Others/plug-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plug-fill.svg"
@@ -12417,46 +13012,6 @@
           "name": "plug-line",
           "path": "icons/Others/plug-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/plug-line.svg"
-        },
-        {
-          "name": "poker-clubs-fill",
-          "path": "icons/Others/poker-clubs-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-clubs-fill.svg"
-        },
-        {
-          "name": "poker-clubs-line",
-          "path": "icons/Others/poker-clubs-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-clubs-line.svg"
-        },
-        {
-          "name": "poker-diamonds-fill",
-          "path": "icons/Others/poker-diamonds-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-diamonds-fill.svg"
-        },
-        {
-          "name": "poker-diamonds-line",
-          "path": "icons/Others/poker-diamonds-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-diamonds-line.svg"
-        },
-        {
-          "name": "poker-hearts-fill",
-          "path": "icons/Others/poker-hearts-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-hearts-fill.svg"
-        },
-        {
-          "name": "poker-hearts-line",
-          "path": "icons/Others/poker-hearts-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-hearts-line.svg"
-        },
-        {
-          "name": "poker-spades-fill",
-          "path": "icons/Others/poker-spades-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-spades-fill.svg"
-        },
-        {
-          "name": "poker-spades-line",
-          "path": "icons/Others/poker-spades-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/poker-spades-line.svg"
         },
         {
           "name": "police-badge-fill",
@@ -12567,16 +13122,6 @@
           "name": "stairs-line",
           "path": "icons/Others/stairs-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/stairs-line.svg"
-        },
-        {
-          "name": "sword-fill",
-          "path": "icons/Others/sword-fill.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/sword-fill.svg"
-        },
-        {
-          "name": "sword-line",
-          "path": "icons/Others/sword-line.svg",
-          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Others/sword-line.svg"
         },
         {
           "name": "t-shirt-2-fill",
@@ -12792,6 +13337,16 @@
           "name": "apps-2-line",
           "path": "icons/System/apps-2-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/apps-2-line.svg"
+        },
+        {
+          "name": "apps-ai-fill",
+          "path": "icons/System/apps-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/apps-ai-fill.svg"
+        },
+        {
+          "name": "apps-ai-line",
+          "path": "icons/System/apps-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/apps-ai-line.svg"
         },
         {
           "name": "apps-fill",
@@ -13244,6 +13799,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/function-add-line.svg"
         },
         {
+          "name": "function-ai-fill",
+          "path": "icons/System/function-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/function-ai-fill.svg"
+        },
+        {
+          "name": "function-ai-line",
+          "path": "icons/System/function-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/function-ai-line.svg"
+        },
+        {
           "name": "function-fill",
           "path": "icons/System/function-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/function-fill.svg"
@@ -13504,6 +14069,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/logout-circle-r-line.svg"
         },
         {
+          "name": "loop-left-ai-fill",
+          "path": "icons/System/loop-left-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-left-ai-fill.svg"
+        },
+        {
+          "name": "loop-left-ai-line",
+          "path": "icons/System/loop-left-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-left-ai-line.svg"
+        },
+        {
           "name": "loop-left-fill",
           "path": "icons/System/loop-left-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-left-fill.svg"
@@ -13512,6 +14087,16 @@
           "name": "loop-left-line",
           "path": "icons/System/loop-left-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-left-line.svg"
+        },
+        {
+          "name": "loop-right-ai-fill",
+          "path": "icons/System/loop-right-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-right-ai-fill.svg"
+        },
+        {
+          "name": "loop-right-ai-line",
+          "path": "icons/System/loop-right-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/loop-right-ai-line.svg"
         },
         {
           "name": "loop-right-fill",
@@ -13862,6 +14447,46 @@
           "name": "search-2-line",
           "path": "icons/System/search-2-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-2-line.svg"
+        },
+        {
+          "name": "search-ai-2-fill",
+          "path": "icons/System/search-ai-2-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-2-fill.svg"
+        },
+        {
+          "name": "search-ai-2-line",
+          "path": "icons/System/search-ai-2-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-2-line.svg"
+        },
+        {
+          "name": "search-ai-3-fill",
+          "path": "icons/System/search-ai-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-3-fill.svg"
+        },
+        {
+          "name": "search-ai-3-line",
+          "path": "icons/System/search-ai-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-3-line.svg"
+        },
+        {
+          "name": "search-ai-4-fill",
+          "path": "icons/System/search-ai-4-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-4-fill.svg"
+        },
+        {
+          "name": "search-ai-4-line",
+          "path": "icons/System/search-ai-4-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-4-line.svg"
+        },
+        {
+          "name": "search-ai-fill",
+          "path": "icons/System/search-ai-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-fill.svg"
+        },
+        {
+          "name": "search-ai-line",
+          "path": "icons/System/search-ai-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/System/search-ai-line.svg"
         },
         {
           "name": "search-eye-fill",
@@ -14409,6 +15034,16 @@
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/admin-line.svg"
         },
         {
+          "name": "ai-agent-fill",
+          "path": "icons/User & Faces/ai-agent-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/ai-agent-fill.svg"
+        },
+        {
+          "name": "ai-agent-line",
+          "path": "icons/User & Faces/ai-agent-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/ai-agent-line.svg"
+        },
+        {
           "name": "aliens-fill",
           "path": "icons/User & Faces/aliens-fill.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/aliens-fill.svg"
@@ -14467,6 +15102,16 @@
           "name": "emotion-2-line",
           "path": "icons/User & Faces/emotion-2-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/emotion-2-line.svg"
+        },
+        {
+          "name": "emotion-add-fill",
+          "path": "icons/User & Faces/emotion-add-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/emotion-add-fill.svg"
+        },
+        {
+          "name": "emotion-add-line",
+          "path": "icons/User & Faces/emotion-add-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/emotion-add-line.svg"
         },
         {
           "name": "emotion-fill",
@@ -14547,6 +15192,16 @@
           "name": "ghost-2-line",
           "path": "icons/User & Faces/ghost-2-line.svg",
           "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/ghost-2-line.svg"
+        },
+        {
+          "name": "ghost-3-fill",
+          "path": "icons/User & Faces/ghost-3-fill.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/ghost-3-fill.svg"
+        },
+        {
+          "name": "ghost-3-line",
+          "path": "icons/User & Faces/ghost-3-line.svg",
+          "download_url": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/User%20%26%20Faces/ghost-3-line.svg"
         },
         {
           "name": "ghost-fill",

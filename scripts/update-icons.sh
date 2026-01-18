@@ -10,7 +10,6 @@ ICONS_DIR="${ASSETS_DIR}/icons"
 CATALOGUE_FILE="${ASSETS_DIR}/catalogue.json"
 VERSION_FILE="${SCRIPT_DIR}/.remix-version"
 
-
 echo "Checking for updates..."
 echo "Fetching: https://api.github.com/repos/Remix-Design/RemixIcon/releases/latest"
 
@@ -28,7 +27,7 @@ echo "Download URL: ${SVG_ASSET_URL}"
 if [[ -f "${VERSION_FILE}" ]]; then
   CURRENT_VERSION=$(cat "${VERSION_FILE}")
   echo "Current: ${CURRENT_VERSION}"
-  
+
   if [[ "${CURRENT_VERSION}" == "${LATEST_VERSION}" ]]; then
     echo "✓ Already up to date!"
     exit 0
@@ -62,13 +61,13 @@ echo "Scanning: ${ICONS_DIR}"
 catalogue='{"categories":[]}'
 for category_dir in "${ICONS_DIR}"/*; do
   [[ ! -d "${category_dir}" ]] && continue
-  
+
   category_name=$(basename "${category_dir}")
   echo "  Processing: ${category_name}"
-  
+
   # URL-encode category name once
   encoded_cat=$(printf '%s' "${category_name}" | jq -sRr @uri)
-  
+
   # Build all icons for this category in one jq call
   icons=$(cd "${category_dir}" && ls -1 *.svg 2>/dev/null | jq -R -s --arg cat "${category_name}" --arg enc "${encoded_cat}" '
     split("\n") | map(select(length > 0)) | map(
@@ -78,19 +77,19 @@ for category_dir in "${ICONS_DIR}"/*; do
         download_url: "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/\($enc)/\($file)"
       }
     )')
-  
+
   catalogue=$(echo "${catalogue}" | jq --arg c "${category_name}" --argjson i "${icons}" \
     '.categories += [{name: $c, icons: $i}]')
 done
 
-echo "${catalogue}" | jq '.' > "${CATALOGUE_FILE}"
+echo "${catalogue}" | jq '.' >"${CATALOGUE_FILE}"
 
 # Statistics
 TOTAL_ICONS=$(echo "${catalogue}" | jq '[.categories[].icons | length] | add')
 TOTAL_CATEGORIES=$(echo "${catalogue}" | jq '.categories | length')
 
 # Save version
-echo "${LATEST_VERSION}" > "${VERSION_FILE}"
+echo "${LATEST_VERSION}" >"${VERSION_FILE}"
 
 rm -rf "${TEMP_DIR}"
 

@@ -10,37 +10,29 @@ export default function IconActionPanel({
   iconName: string;
   updateRecentIcons: (category: string, iconName: string) => void;
 }>) {
-  const copySVG = () => {
+  const handleCopy = async (format: string, getContent: () => string) => {
     try {
-      const content = getSvgContent(category, iconName);
-      Clipboard.copy(content);
-      showHUD(`📋 Copied "${iconName}" (SVG) to your clipboard.`);
+      const content = getContent();
+      await Clipboard.copy(content);
+      await showHUD(`📋 Copied "${iconName}" (${format}) to your clipboard.`);
       updateRecentIcons(category, iconName);
     } catch (error) {
-      console.error(error);
-      showHUD("❌ Could not copy the icon.");
+      console.error(`Error copying ${format}:`, error);
+      await showHUD(`❌ Could not copy the ${format}.`);
     }
   };
 
-  const copyWebfont = () => {
-    const content = `<i class="${iconName}"></i>`;
-    Clipboard.copy(content);
-    showHUD(`📋 Copied "${iconName}" (Webfont) to your clipboard.`);
-    updateRecentIcons(category, iconName);
-  };
+  const copySVG = () =>
+    handleCopy("SVG", () => getSvgContent(category, iconName));
 
-  const copyDataURI = () => {
-    try {
+  const copyWebfont = () =>
+    handleCopy("Webfont", () => `<i class="${iconName}"></i>`);
+
+  const copyDataURI = () =>
+    handleCopy("Data URI", () => {
       const content = getSvgContent(category, iconName);
-      const dataUri = svgToDataUri(content);
-      Clipboard.copy(dataUri);
-      showHUD(`📋 Copied "${iconName}" (Data URI) to your clipboard.`);
-      updateRecentIcons(category, iconName);
-    } catch (error) {
-      console.error(error);
-      showHUD("❌ Could not copy the Data URI.");
-    }
-  };
+      return svgToDataUri(content);
+    });
 
   return (
     <ActionPanel>

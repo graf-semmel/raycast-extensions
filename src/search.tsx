@@ -1,5 +1,5 @@
 import { Cache, Grid, showToast, Toast } from "@raycast/api";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import CategorySection from "./CategorySection";
 import { Category, RecentIcon } from "./types";
 
@@ -7,60 +7,57 @@ interface IconCatalog {
   categories: Category[];
 }
 
-const CACHE_KEY_RECENT_ICONS = "recentIcons";
+const CACHE_KEY_RECENT_ICONS = "recent-icons-cache";
 const cache = new Cache();
 
 function loadRecentIcons(): RecentIcon[] {
   const recent = cache.get(CACHE_KEY_RECENT_ICONS);
   if (!recent) return [];
-  
+
   try {
     const parsed = JSON.parse(recent);
     // Validate that each item has category and name properties
-    return parsed.filter((icon: any) => 
-      icon && typeof icon === 'object' && icon.category && icon.name
+    return parsed.filter(
+      (icon: unknown) =>
+        icon &&
+        typeof icon === "object" &&
+        "category" in icon &&
+        "name" in icon,
     );
-  } catch {
+  } catch (e: unknown) {
+    console.error("Error parsing recent icons from cache:", e);
     return [];
   }
 }
 
 export default function IconsCommand() {
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [catalogue, setCatalogue] = useState<IconCatalog>({ categories: [] });
   const [category, setCategory] = useState<string>("All");
-  const [recentIcons, setRecentIcons] = useState<RecentIcon[]>(loadRecentIcons());
+  const [recentIcons, setRecentIcons] =
+    useState<RecentIcon[]>(loadRecentIcons());
 
-  let filteredCatalogue: IconCatalog;
+  const filteredCatalogue = useMemo<IconCatalog>(() => {
+    const recentCategory: Category = {
+      name: "Recent",
+      icons: recentIcons,
+    };
 
-  switch (category) {
-    case "All":
-      filteredCatalogue = {
-        categories: [
-          {
-            name: "Recent",
-            icons: recentIcons,
-          },
-          ...catalogue.categories,
-        ],
-      };
-      break;
-    case "Recent":
-      filteredCatalogue = {
-        categories: [
-          {
-            name: "Recent",
-            icons: recentIcons,
-          },
-        ],
-      };
-      break;
-    default:
-      filteredCatalogue = {
-        categories: catalogue.categories.filter((c) => c.name === category),
-      };
-      break;
-  }
+    switch (category) {
+      case "All":
+        return {
+          categories: [recentCategory, ...catalogue.categories],
+        };
+      case "Recent":
+        return {
+          categories: [recentCategory],
+        };
+      default:
+        return {
+          categories: catalogue.categories.filter((c) => c.name === category),
+        };
+    }
+  }, [category, catalogue.categories, recentIcons]);
 
   useEffect(() => {
     async function loadCategories() {
@@ -68,36 +65,42 @@ export default function IconsCommand() {
         const categoriesModule = await import("../assets/catalogue.json");
         const catalogue: IconCatalog = categoriesModule.default;
         setCatalogue(catalogue);
-        setLoading(false);
       } catch (error) {
         console.error("Error loading catalogue", error);
         showToast(Toast.Style.Failure, "Error loading catalogue");
+      } finally {
+        setIsLoading(false);
       }
     }
 
     loadCategories();
   }, []);
 
-  function updateRecentIcons(category: string, iconName: string) {
-    const updatedRecentIcons = [
-      { category, name: iconName },
-      ...recentIcons.filter((i) => i.name !== iconName),
-    ].slice(0, 8);
-    setRecentIcons(updatedRecentIcons);
-    cache.set(CACHE_KEY_RECENT_ICONS, JSON.stringify(updatedRecentIcons));
-  }
+  const updateRecentIcons = useCallback(
+    (category: string, iconName: string) => {
+      setRecentIcons((prev) => {
+        const updatedRecentIcons = [
+          { category, name: iconName },
+          ...prev.filter((i) => i.name !== iconName),
+        ].slice(0, 8);
+        cache.set(CACHE_KEY_RECENT_ICONS, JSON.stringify(updatedRecentIcons));
+        return updatedRecentIcons;
+      });
+    },
+    [],
+  );
 
   return (
     <Grid
       isLoading={isLoading}
       filtering={{ keepSectionOrder: true }}
-      navigationTitle="Search Remix Icons"
-      searchBarPlaceholder="Search all icons..."
+      navigationTitle="Search Remix Icon Library"
+      searchBarPlaceholder="Search icons..."
       searchBarAccessory={
         <Grid.Dropdown
-          tooltip="Select variant"
+          tooltip="Select category"
           storeValue={true}
-          onChange={(newVariant) => setCategory(newVariant)}
+          onChange={(category) => setCategory(category)}
         >
           <Grid.Dropdown.Section title="General">
             <Grid.Dropdown.Item title="All" value="All" key="All" />

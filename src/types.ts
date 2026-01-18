@@ -11,4 +11,3 @@ export type RecentIcon = {
   category: string;
   name: string;
 };
-

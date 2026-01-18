@@ -18,15 +18,20 @@ export function getSvgContent(category: string, iconName: string): string {
   if (!svgCache[category]) {
     const compressedPath = path.join(
       environment.assetsPath,
-      `icons-compressed/${category}.json`
+      `icons-compressed/${category}.json`,
     );
-    svgCache[category] = JSON.parse(fs.readFileSync(compressedPath, "utf-8"));
+    const fileContent = fs.readFileSync(compressedPath, "utf-8");
+    svgCache[category] = JSON.parse(fileContent);
   }
 
-  return svgCache[category][iconName] || "";
+  const svgContent = svgCache[category][iconName];
+  if (!svgContent) {
+    throw new Error(`Icon "${iconName}" not found in category "${category}"`);
+  }
+
+  return svgContent;
 }
 
 export function svgToDataUri(svgContent: string): string {
   return `data:image/svg+xml;base64,${Buffer.from(svgContent).toString("base64")}`;
 }
-

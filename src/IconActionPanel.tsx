@@ -1,4 +1,3 @@
-/* eslint-disable @raycast/prefer-title-case */
 import { ActionPanel, Action, Icon, Clipboard, showHUD } from "@raycast/api";
 import { readAssetFile } from "./utils";
 import { RemixIcon } from "./types";

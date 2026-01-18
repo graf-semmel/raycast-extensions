@@ -22,7 +22,6 @@ const cache = new Cache();
 
 function loadRecentIcons() {
   const recent = cache.get(CACHE_KEY_RECENT_ICONS);
-  console.log(recent);
   return recent ? JSON.parse(recent) : [];
 }
 

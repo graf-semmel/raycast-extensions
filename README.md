@@ -23,7 +23,7 @@ Install via the [Raycast Store](https://www.raycast.com/tristan_heinig/remix-ico
 
 ### Prerequisites
 
-- Node.js 20+
+- Node.js 22.14+
 - [Raycast](https://www.raycast.com/) installed on macOS
 
 ### Setup

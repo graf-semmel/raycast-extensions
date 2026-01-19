@@ -1,5 +1,5 @@
 import { ActionPanel, Action, Icon, Clipboard, showHUD } from "@raycast/api";
-import { getSvgContent, svgToDataUri } from "./utils";
+import { getSvgContent, svgToDataUri, toUpperCamelCase } from "./utils";
 
 export default function IconActionPanel({
   category,
@@ -27,7 +27,7 @@ export default function IconActionPanel({
 
   const copyWebfont = () =>
     handleCopy("Webfont", () => `<i class="ri-${iconName}"></i>`);
-  
+
   const copyCDN = async () => {
     try {
       const metadata = await import("../assets/metadata.json");
@@ -48,6 +48,14 @@ export default function IconActionPanel({
       return svgToDataUri(content);
     });
 
+  const copyReactComponent = () => {
+    const componentName = "Ri" + toUpperCamelCase(iconName);
+    return handleCopy(
+      "React Component",
+      () => `<${componentName} size={24} color="currentColor" />`,
+    );
+  };
+
   return (
     <ActionPanel>
       <Action title="Copy SVG" onAction={copySVG} icon={Icon.CopyClipboard} />
@@ -67,6 +75,12 @@ export default function IconActionPanel({
         onAction={copyDataURI}
         icon={Icon.CopyClipboard}
       />
+      <Action
+        title="Copy React Component"
+        onAction={copyReactComponent}
+        icon={Icon.Code}
+        shortcut={{ modifiers: ["cmd"], key: "r" }}
+      />
       <Action.OpenInBrowser
         title="Remix Icon Homepage"
         url="https://remixicon.com/"
@@ -75,7 +89,6 @@ export default function IconActionPanel({
         title="Remix Icon GitHub Page"
         url="https://github.com/Remix-Design/RemixIcon"
       />
-      {/* TODO - Make "your-path" a preference */}
       {/* <Action
         title="Copy SVG Sprite"
         onAction={() => {
@@ -90,20 +103,8 @@ export default function IconActionPanel({
         }}
         icon={Icon.Link}
       /> */}
-
+      {/* TODO - Make "your-path" a preference */}
       {/* TODO - Make size, color, className a preference */}
-      {/* <Action
-        title="Copy React Component"
-        onAction={() => {
-          const componentName = toUpperCamelCase(icon.name);
-          const component = `<${componentName} size={24} color="black" className="my-class"/>`;
-          Clipboard.copy(component);
-          showHUD(
-            `📋 Copied "${icon.name}" (React Component) to your clipboard.`,
-          );
-        }}
-        icon={Icon.Code}
-      /> */}
     </ActionPanel>
   );
 }

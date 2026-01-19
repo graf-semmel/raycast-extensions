@@ -26,7 +26,21 @@ export default function IconActionPanel({
     handleCopy("SVG", () => getSvgContent(category, iconName));
 
   const copyWebfont = () =>
-    handleCopy("Webfont", () => `<i class="${iconName}"></i>`);
+    handleCopy("Webfont", () => `<i class="ri-${iconName}"></i>`);
+  
+  const copyCDN = async () => {
+    try {
+      const metadata = await import("../assets/metadata.json");
+      const version = metadata.version || "4.8.0";
+      const cdnLink = `<link href="https://cdn.jsdelivr.net/npm/remixicon@${version}/fonts/remixicon.css" rel="stylesheet"/>`;
+      await Clipboard.copy(cdnLink);
+      await showHUD(`📋 Copied CDN link (v${version}) to your clipboard.`);
+      updateRecentIcons(category, iconName);
+    } catch (error) {
+      console.error("Error copying CDN:", error);
+      await showHUD("❌ Could not copy the CDN link.");
+    }
+  };
 
   const copyDataURI = () =>
     handleCopy("Data URI", () => {
@@ -41,6 +55,12 @@ export default function IconActionPanel({
         title="Copy Webfont"
         onAction={copyWebfont}
         icon={Icon.CopyClipboard}
+      />
+      <Action
+        title="Copy CDN Link"
+        onAction={copyCDN}
+        icon={Icon.Link}
+        shortcut={{ modifiers: ["cmd"], key: "d" }}
       />
       <Action
         title="Copy Data URI"

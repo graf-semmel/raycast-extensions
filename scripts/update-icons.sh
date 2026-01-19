@@ -11,6 +11,7 @@ ICONS_DIR="${LOCAL_DIR}/icons"
 ASSETS_DIR="${PROJECT_DIR}/assets"
 COMPRESSED_DIR="${ASSETS_DIR}/icons-compressed"
 CATALOGUE_FILE="${ASSETS_DIR}/catalogue.json"
+METADATA_FILE="${ASSETS_DIR}/metadata.json"
 VERSION_FILE="${LOCAL_DIR}/.remix-version"
 
 echo "Checking for updates..."
@@ -119,6 +120,14 @@ COMPRESSED_FILES=$(ls -1 "${COMPRESSED_DIR}" | wc -l | xargs)
 
 # Save version
 echo "${LATEST_VERSION}" >"${VERSION_FILE}"
+
+# Save metadata with version
+cat > "${METADATA_FILE}" <<EOF
+{
+  "version": "${LATEST_VERSION}",
+  "updated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+}
+EOF
 
 echo ""
 echo "✓ Updated to v${LATEST_VERSION}"

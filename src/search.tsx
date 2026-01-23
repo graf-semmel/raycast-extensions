@@ -59,7 +59,7 @@ export default function IconsCommand() {
       try {
         const categoriesModule = await import("../assets/catalogue.json");
         const rawCatalog = categoriesModule.default as CatalogJSON;
-        
+
         // Convert string[] to Icon[] by including the category name
         const catalogue: Catalog = {
           categories: rawCatalog.categories.map((cat) => ({
@@ -67,7 +67,7 @@ export default function IconsCommand() {
             icons: cat.icons.map((name) => ({ name, category: cat.name })),
           })),
         };
-        
+
         setCatalogue(catalogue);
       } catch (error) {
         console.error("Error loading catalogue", error);

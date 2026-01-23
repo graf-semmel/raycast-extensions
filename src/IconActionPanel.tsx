@@ -1,5 +1,5 @@
 import { ActionPanel, Action } from "@raycast/api";
-import { getSvgContent, svgToDataUri, toUpperCamelCase } from "./utils";
+import { getSvgContent, svgToDataUri, toReactComponentName } from "./utils";
 import metadata from "../assets/metadata.json";
 
 export default function IconActionPanel({
@@ -11,7 +11,7 @@ export default function IconActionPanel({
   iconName: string;
   updateRecentIcons: (category: string, iconName: string) => void;
 }>) {
-  const reactComponentName = "Ri" + toUpperCamelCase(iconName);
+  const reactComponentName = toReactComponentName(iconName);
   const cdnLink = `<link href="https://cdn.jsdelivr.net/npm/remixicon@${metadata.version}/fonts/remixicon.css" rel="stylesheet"/>`;
 
   return (

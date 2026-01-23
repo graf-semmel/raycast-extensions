@@ -10,6 +10,10 @@ export function toUpperCamelCase(string: string) {
   return camelCaseString.charAt(0).toUpperCase() + camelCaseString.slice(1);
 }
 
+export function toReactComponentName(iconName: string): string {
+  return "Ri" + toUpperCamelCase(iconName);
+}
+
 // Cache for compressed icon files
 const svgCache: Record<string, Record<string, string>> = {};
 

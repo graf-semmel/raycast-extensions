@@ -61,8 +61,8 @@ export default function IconActionPanel({
       </ActionPanel.Section>
       <ActionPanel.Section title="Links">
         <Action.OpenInBrowser
-          title="Remix Icon Homepage"
-          url="https://remixicon.com/"
+          title="Open Icon on Remix Icon Website"
+          url={`https://remixicon.com/icon/${iconName}`}
         />
         <Action.OpenInBrowser
           title="Remix Icon GitHub Page"

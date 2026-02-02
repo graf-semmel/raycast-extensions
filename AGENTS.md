@@ -64,6 +64,7 @@ After updating icons: `npm run update-icons && npm install -D @remixicon/react@X
 - [Remix Icon](https://remixicon.com/)
 - [@remixicon/react](https://www.npmjs.com/package/@remixicon/react)
 - [@remixicon/vue](https://www.npmjs.com/package/@remixicon/vue)
+- [Changelog Guide](https://developers.raycast.com/basics/prepare-an-extension-for-store#version-history)
 
 ---
 

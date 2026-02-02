@@ -67,7 +67,7 @@ Run `npm run update-icons` or `./scripts/update-icons.sh`:
 - Regenerates `catalogue.json`
 - Updates `metadata.json` with version
 
-**⚠️ Critical**: After updating, sync `@remixicon/react` version in package.json and run `npm run validate`
+**⚠️ Critical**: After updating, sync `@remixicon/react` and `@remixicon/vue` versions in package.json and run `npm run validate`
 
 ## 🛠️ Development Commands
 
@@ -77,7 +77,7 @@ npm run build        # Production build
 npm run lint         # ESLint check
 npm run fix-lint     # Auto-fix linting issues
 npm run update-icons # Fetch latest Remix Icon release
-npm run validate     # Verify React component names
+npm run validate     # Verify React and Vue component names
 ```
 
 ## 📝 Code Conventions
@@ -158,7 +158,7 @@ When making changes, verify:
 
 ### Updating Scripts
 - **Update script**: [scripts/update-icons.sh](scripts/update-icons.sh) (requires `jq`, `curl`, `unzip`)
-- **Validation**: [scripts/validate-react-names.mjs](scripts/validate-react-names.mjs)
+- **Validation**: [scripts/validate-component-names.mjs](scripts/validate-component-names.mjs)
 - **Utilities**: [scripts/utils.mjs](scripts/utils.mjs)
 
 ## 🔍 Common Tasks
@@ -201,7 +201,7 @@ function matchesSearch(iconName: string, search: string): boolean {
 ### React Component Names Wrong
 1. Run `npm run validate`
 2. Check `@remixicon/react` version matches `metadata.json`
-3. Verify name transformation in [src/utils.ts](src/utils.ts) `toReactComponentName()`
+3. Verify name transformation in [src/utils.ts](src/utils.ts) `toComponentName()`
 
 ### Recent Icons Not Persisting
 1. Check Cache API usage in [src/search.tsx](src/search.tsx)
@@ -221,12 +221,13 @@ function matchesSearch(iconName: string, search: string): boolean {
 **Critical**: Keep these versions in sync:
 1. `assets/metadata.json` → `version` (e.g., "4.8.0")
 2. `package.json` → `@remixicon/react` (e.g., "~4.8.0")
-3. CDN links in [src/IconActionPanel.tsx](src/IconActionPanel.tsx) use `metadata.version`
+3. `package.json` → `@remixicon/vue` (e.g., "~4.8.0")
+4. CDN links in [src/IconActionPanel.tsx](src/IconActionPanel.tsx) use `metadata.version`
 
 After updating:
 ```bash
 npm run update-icons           # Updates metadata.json
-npm install -D @remixicon/react@4.8.0  # Match version
+npm install -D @remixicon/react@4.8.0 @remixicon/vue@4.8.0  # Match version
 npm run validate               # Verify component names
 ```
 

@@ -1,5 +1,5 @@
 import { ActionPanel, Action } from "@raycast/api";
-import { getSvgContent, svgToDataUri, toReactComponentName } from "./utils";
+import { getSvgContent, svgToDataUri, toComponentName } from "./utils";
 import metadata from "../assets/metadata.json";
 
 export default function IconActionPanel({
@@ -11,7 +11,7 @@ export default function IconActionPanel({
   iconName: string;
   updateRecentIcons: (category: string, iconName: string) => void;
 }>) {
-  const reactComponentName = toReactComponentName(iconName);
+  const componentName = toComponentName(iconName);
   const cdnLink = `<link href="https://cdn.jsdelivr.net/npm/remixicon@${metadata.version}/fonts/remixicon.css" rel="stylesheet"/>`;
 
   return (
@@ -30,13 +30,13 @@ export default function IconActionPanel({
       <ActionPanel.Section title="React">
         <Action.CopyToClipboard
           title="Copy React Component"
-          content={`<${reactComponentName} size={24} color="currentColor" />`}
+          content={`<${componentName} size={24} color="currentColor" />`}
           shortcut={{ modifiers: ["cmd"], key: "r" }}
           onCopy={() => updateRecentIcons(category, iconName)}
         />
         <Action.CopyToClipboard
           title="Copy React Import"
-          content={`import { ${reactComponentName} } from "@remixicon/react";`}
+          content={`import { ${componentName} } from "@remixicon/react";`}
           onCopy={() => updateRecentIcons(category, iconName)}
         />
         <Action.CopyToClipboard
@@ -49,13 +49,13 @@ export default function IconActionPanel({
       <ActionPanel.Section title="Vue">
         <Action.CopyToClipboard
           title="Copy Vue Component"
-          content={`<${reactComponentName} size="24px" color="currentColor" />`}
+          content={`<${componentName} size="24px" color="currentColor" />`}
           shortcut={{ modifiers: ["cmd"], key: "v" }}
           onCopy={() => updateRecentIcons(category, iconName)}
         />
         <Action.CopyToClipboard
           title="Copy Vue Import"
-          content={`import { ${reactComponentName} } from "@remixicon/vue";`}
+          content={`import { ${componentName} } from "@remixicon/vue";`}
           onCopy={() => updateRecentIcons(category, iconName)}
         />
         <Action.CopyToClipboard

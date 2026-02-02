@@ -12,11 +12,12 @@ A Raycast extension to search and browse [Remix Icon](https://remixicon.com/) li
 - **Multiple Export Formats**:
   - **SVG**: Raw SVG code for direct use
   - **React Component**: Ready-to-use component tags (e.g., `<RiHeartFill size={24} />`)
+  - **Vue Component**: Ready-to-use Vue 3 component tags (e.g., `<RiHeartFill size="24px" />`)
   - **Data URI**: Base64 encoded for inline use
   - **Webfont**: HTML tag (`<i class="ri-heart-fill"></i>`)
   - **CDN Link**: Versioned webfont CDN link
-  - **NPM Install**: Command to install Remix Icon package
-  - **React Import**: Import statement for React components
+  - **NPM Install**: Commands to install React and Vue packages
+  - **React/Vue Import**: Import statements for React and Vue components
 - **Quick Links**: Direct access to Remix Icon homepage and GitHub repository
 
 ## Installation
@@ -125,7 +126,6 @@ metadata/
 - PNG export support
 - Starred/favorite icons
 - Configurable preferences (default size, color, className)
-- Vue component export
 
 ## License
 

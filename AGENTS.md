@@ -50,11 +50,14 @@ Catalog = { categories: IconCategory[] }         // Full icon catalog
 ### 2. Icon Export Formats
 - **SVG**: Raw SVG code from compressed JSON
 - **React Component**: `<RiHeartFill size={24} color="currentColor" />`
+- **Vue Component**: `<RiHeartFill size="24px" color="currentColor" />`
 - **Data URI**: Base64-encoded for inline CSS/HTML
 - **Webfont HTML**: `<i class="ri-heart-fill"></i>`
 - **CDN Link**: Versioned webfont CSS link
-- **NPM Install**: `npm install @remixicon/react`
+- **NPM Install React**: `npm install @remixicon/react`
+- **NPM Install Vue**: `npm install @remixicon/vue`
 - **React Import**: `import { RiHeartFill } from "@remixicon/react";`
+- **Vue Import**: `import { RiHeartFill } from "@remixicon/vue";`
 
 ### 3. Icon Updates
 Run `npm run update-icons` or `./scripts/update-icons.sh`:
@@ -131,9 +134,9 @@ When making changes, verify:
 - [ ] Search filters icons correctly (case-insensitive)
 - [ ] Category dropdown works (All, Recent, specific categories)
 - [ ] Recent icons persist across sessions
-- [ ] All 7 export formats copy correctly
+- [ ] All 9 export formats copy correctly (SVG, React, Vue, Data URI, HTML, CDN, NPM React, NPM Vue, Import)
 - [ ] SVG previews render in Grid
-- [ ] React component names match `@remixicon/react` package
+- [ ] React/Vue component names match `@remixicon/react` and `@remixicon/vue` packages
 - [ ] No console errors
 - [ ] Extension builds successfully (`npm run build`)
 - [ ] Lint passes (`npm run lint`)
@@ -211,6 +214,7 @@ function matchesSearch(iconName: string, search: string): boolean {
 - **Remix Icon**: https://remixicon.com/
 - **Remix Icon GitHub**: https://github.com/Remix-Design/RemixIcon
 - **@remixicon/react**: https://www.npmjs.com/package/@remixicon/react
+- **@remixicon/vue**: https://www.npmjs.com/package/@remixicon/vue
 
 ## 🔄 Version Synchronization
 
